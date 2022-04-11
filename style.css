@@ -1,0 +1,41 @@
+label{
+    font-size:25px;
+}
+body{
+    background-color: #c4c7ff;
+}
+h1{
+    font-family: 'Beau Rivage', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #ff85fb;
+    color: #ec0868;
+    padding-bottom: 5px;
+}
+#showsketch{
+    color: #3e016f;
+    font-size: 25px;
+    float: right;
+    margin: 5px;
+    border-color: white;
+    border: solid;
+}
+label{
+    padding: 5px;
+    font-family: 'Rubik Microbe', cursive;
+}
+#clear{
+    margin-top: 15px ;
+}
+canvas{
+    border: 10px solid white;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 15px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 40px #ff0000;}
+    to {box-shadow: 1px 1px 40px #0026ff;}
+}
